@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Canada Blog",
-  description: "Blog about tech shit",
+  description: "Blog about tech stuff",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,5 +28,10 @@ export default defineConfig({
     image: {
       lazyLoading: true
     }
-  }
+  },
+  sitemap: {
+    hostname: 'https://blog.luisc.me',
+    lastmodDateOnly: false
+  },
+  lastUpdated: true
 })
