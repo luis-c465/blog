@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+index-include: false
 
 hero:
   name: "Canada Blog"
@@ -9,10 +10,6 @@ hero:
     src: /favicon.svg
     alt: Canada
   tagline: Not Canadian btw
-  actions:
-    - theme: brand
-      text: Setting Up Nextcloud
-      link: /nextcloud-setup
 
 # features:
 #   - title: Feature A

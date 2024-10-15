@@ -3,11 +3,12 @@ title: Setting up Nextcloud in docker connected to an external SMB server
 prev: false
 next: false
 outline: [2,4]
+date: Sun Oct 13 2024
 ---
 
 # Setting up Nextcloud in docker connected to an external SMB server
 
-![NextCloud](/assets/nextcloud-setup/nextcloud.png)
+![NextCloud](/assets/nextcloud-setup/index.png)
 
 This guide goes over how to setup **Nextcloud in docker** on a **Linux machine** where the data is stored on an **external SMB server**.
 
