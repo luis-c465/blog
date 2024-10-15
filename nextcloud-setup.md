@@ -8,7 +8,7 @@ date: Sun Oct 13 2024
 
 # Setting up Nextcloud in docker connected to an external SMB server
 
-![NextCloud](/assets/nextcloud-setup/index.png)
+![NextCloud](/public/nextcloud-setup/index.png)
 
 This guide goes over how to setup **Nextcloud in docker** on a **Linux machine** where the data is stored on an **external SMB server**.
 
@@ -187,11 +187,11 @@ Check container logs using `docker-compose logs -f`.
 
 When first opening the app you will be prompted to **create an admin user**, fill out the form with your wanted username and password and click Install.
 
-![Nextcloud Admin Creation Step](/assets/nextcloud-setup/setup.png)
+![Nextcloud Admin Creation Step](/public/nextcloud-setup/setup.png)
 
 Once done, it will setup the server then redirect you to the dashboard screen showing the following
 
-![Nextcloud Dashboard](/assets/nextcloud-setup/dashboard.png)
+![Nextcloud Dashboard](/public/nextcloud-setup/dashboard.png)
 
 ## Closing thoughts
 
